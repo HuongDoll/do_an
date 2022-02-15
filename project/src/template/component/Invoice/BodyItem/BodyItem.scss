@@ -1,0 +1,37 @@
+.motel-invoice-body-item {
+  width: 100%;
+  border-top: 1px solid #afb7cf;
+  padding: 12px 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(248, 251, 255);
+
+    .address {
+      color: #df4a1c;
+    }
+  }
+
+  .row_inf {
+    width: 40%;
+    display: flex;
+    padding-right: 24px;
+
+  }
+
+  .row_host {
+    width: 20%;
+    min-width: 200px;
+  }
+
+
+  .row_status {
+    width: 20%;
+    min-width: 200px;
+  }
+
+  .row_cost {
+    width: 20%;
+    min-width: 200px;
+  }
+}

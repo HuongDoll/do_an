@@ -1,0 +1,98 @@
+$primaryColor: #444;
+$secondaryColor: #ddd;
+$tertiaryColor: #804f7b;
+$quaternaryColor: #d278c9;
+
+
+@import 'grapesjs/src/styles/scss/main.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#gjs {
+//   border: 3px solid #444;
+}
+
+/* Reset some default styling */
+.gjs-cv-canvas {
+  top: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.gjs-block {
+  width: auto !important;
+  height: auto !important;
+  min-height: auto !important;
+}
+
+.panel__top {
+  padding: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.gjs-pn-panel{
+    position: inherit !important ;
+}
+.panel__basic-actions {
+  position: initial !important;
+}
+
+.editor-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+//   height: 300px;
+}
+
+.editor-canvas {
+  flex-grow: 1;
+}
+
+.panel__right {
+  flex-basis: 230px;
+  position: relative !important;
+  overflow-y: auto;
+}
+
+.panel__switcher {
+  position: initial;
+}
+
+.panel__devices {
+  position: initial;
+}
+
+#gjs {
+  border: none;
+}
+/* Theming */
+
+/* Primary color for the background */
+.gjs-one-bg {
+  background-color: #78366a;
+}
+
+/* Secondary color for the text color */
+.gjs-two-color {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Tertiary color for the background */
+.gjs-three-bg {
+  background-color: #ec5896;
+  color: white;
+}
+
+/* Quaternary color for the text color */
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  color: #ec5896;
+}
+
+

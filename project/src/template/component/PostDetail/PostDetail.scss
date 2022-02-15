@@ -1,0 +1,40 @@
+.post-detail{
+    margin: 4px;
+    background-color: #fff;
+    padding: 12px;
+    width: calc(100% - 8px);
+    height: calc(100% - 8px);
+
+    &__lable{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-weight: bold;
+        font-size: 24px;
+
+    }
+
+    &__content{
+        
+
+        &_image{
+            width: 100%;
+            display: grid;
+            justify-content: center;
+
+            &_row {
+                padding: 24px;
+                width: 100%;
+                max-width: 400px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+        }
+
+        &_post{
+            padding: 24px;
+        }
+    }
+}

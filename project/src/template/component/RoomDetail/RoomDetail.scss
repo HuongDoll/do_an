@@ -1,0 +1,51 @@
+.room-detail {
+  margin: 4px;
+  background-color: #fff;
+  padding: 12px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
+
+  &__lable {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  &__status{
+    padding: 8px 30px;
+    margin-left: 12px;
+    margin-top: 4px;
+    font-size: 18px;
+    background-color: #72e972;
+
+  }
+
+  &__content {
+    // height: 100%;
+    &_image {
+      width: 100%;
+      display: grid;
+      justify-content: center;
+      // height: 100%;
+
+      &_row {
+        padding: 24px;
+        width: 100%;
+        // max-width: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .mini-image{
+        max-width: 182px;
+      }
+    }
+
+    &_room {
+      padding: 24px;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.motel-menu{
+    font-size: 16px;
+    
+    .ant-menu-submenu ,.ant-menu-item{
+        // background-color: #2a85da;
+        margin: 0 ;
+
+        &:not(:last-child){
+            margin: 0;
+        }
+
+        .ant-menu-submenu-title{
+            margin: 0px;
+        }
+
+        .ant-menu-submenu-title{
+            height: 60px;
+        }
+
+    }
+
+   .ant-menu-item{
+       height: 60px;
+   }
+    
+}

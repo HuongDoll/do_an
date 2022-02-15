@@ -1,0 +1,42 @@
+.motel-login{
+    display: flex;
+    background: #fff;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    width: 100%; 
+    border: 1px dashed #d9d9d9;
+    min-width: 500px;
+    height: fit-content;
+
+    &:hover{
+        background-color: rgb(243, 243, 247);
+    }
+
+    &__left{
+        height: fit-content;
+        width: 20%;
+        min-width: 250px;
+        padding-right: 40px;
+
+        img{
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    &__right{
+        padding-top: 22px;
+        height: fit-content;
+        .title{
+            font-size: 24px;
+            font-weight: bold;
+            color: rgb(39, 50, 196);
+
+            &:hover{
+                color: rgb(194, 46, 46);
+            }
+        }
+    }
+}

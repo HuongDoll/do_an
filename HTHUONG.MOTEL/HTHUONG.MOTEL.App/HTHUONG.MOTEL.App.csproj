@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MimeMapping" Version="1.0.1.37" />
+    <PackageReference Include="Minio" Version="3.1.13" />
+    <PackageReference Include="Nancy" Version="2.0.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HTHUONG.MOTEL.Core\HTHUONG.MOTEL.Core.csproj" />
+    <ProjectReference Include="..\HTHUONG.MOTEL.Infrastructure\HTHUONG.MOTEL.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\content\RSA256\" />
+  </ItemGroup>
+
+</Project>

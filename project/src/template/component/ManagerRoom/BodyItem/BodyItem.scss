@@ -1,0 +1,48 @@
+.motel-body-item {
+  width: 100%;
+  border-top: 1px solid #afb7cf;
+  padding: 12px 0;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(248, 251, 255);
+
+    .address {
+      color: #240868;
+    }
+  }
+
+  .row_id{
+      width: 10%;
+      min-width: 70px;
+      max-width: 100px;
+  }
+
+  .row_inf {
+    width: 50%;
+    display: flex;
+    padding-right: 24px;
+
+    .image {
+      width: 150px;
+      height: auto;
+      margin-right: 24px;
+    }
+
+    .address {
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+
+  .row_status {
+    width: 20%;
+    min-width: 200px;
+    font-size: 18px;
+  }
+
+  .row_option {
+    width: 20%;
+    min-width: 200px;
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.App\\HTHUONG.MOTEL.App.csproj": {}
+  },
+  "projects": {
+    "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.App\\HTHUONG.MOTEL.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.App\\HTHUONG.MOTEL.App.csproj",
+        "projectName": "HTHUONG.MOTEL.App",
+        "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.App\\HTHUONG.MOTEL.App.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.App\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\HTHUONG.MOTEL.Core.csproj": {
+                "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\HTHUONG.MOTEL.Core.csproj"
+              },
+              "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj": {
+                "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MimeMapping": {
+              "target": "Package",
+              "version": "[1.0.1.37, )"
+            },
+            "Minio": {
+              "target": "Package",
+              "version": "[3.1.13, )"
+            },
+            "Nancy": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\HTHUONG.MOTEL.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\HTHUONG.MOTEL.Core.csproj",
+        "projectName": "HTHUONG.MOTEL.Core",
+        "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\HTHUONG.MOTEL.Core.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj": {
+                "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.5.12, )"
+            },
+            "Dapper.Contrib": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.15.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            },
+            "jose-jwt": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj",
+        "projectName": "HTHUONG.MOTEL.Infrastructure",
+        "projectPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\HTHUONG.MOTEL.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\motel_HTHUONG\\motel\\HTHUONG.MOTEL\\HTHUONG.MOTEL.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
